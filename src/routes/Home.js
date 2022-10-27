@@ -1,6 +1,6 @@
 import "./Home.css";
 import Movie from "../components/Movie";
-import useFetchApi from "../hooks/useFetchApi";
+import useFetchApi from "elenauseapihook";
 
 function Home() {
   const [isLoading, isError, data] = useFetchApi(
