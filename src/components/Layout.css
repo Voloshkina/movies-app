@@ -11,3 +11,15 @@
   display: inline-block;
   margin: 25px 10px;
 }
+
+.main-btn {
+  margin: 10px auto;
+  display: block;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(30, 34, 36);
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

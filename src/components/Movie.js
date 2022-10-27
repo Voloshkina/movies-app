@@ -1,7 +1,7 @@
 import React from "react";
 import "./Movie.css";
 
-function Movie({ year, title, summary, poster, genres }) {
+function Movie({ id, year, title, summary, poster, genres }) {
   return (
     <div className="movie">
       <img src={poster} alt={title} title={title} />
